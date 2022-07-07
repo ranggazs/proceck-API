@@ -1,6 +1,6 @@
 import express from 'express'
 import checkaccount from './src/routes/checkaccount.js'
-import { endpoint } from './src/routes/endpoint.js'
+import { endpoint } from 'index.html'
 
 const app = express()
 
