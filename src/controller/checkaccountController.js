@@ -60,7 +60,7 @@ export const checkAccountML = async (req, res) => {
                 response: {
                     game: 'Mobile Legends',
                     id: mlresult.confirmationFields.userId,
-                    name: mlresult.confirmationFields.username,
+                    name: mlresult.confirmationFields.roles[0].role,
                     country: mlresult.confirmationFields.country
                 }
             })
